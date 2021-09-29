@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    display: inline-block;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/* gen. classes */
+
+.site-title {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.site-line {
+    width: 120px;
+    height: 1px;
+    background: #fff;
+    margin: 50px auto;
+}
+
+.site-btn {
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 12px 28px;
+    background: none;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+.site-text {
+    font-size: 14px;
+    text-align: center;
+    line-height: 21px;
+    max-width: 471px;
+    margin: 0 auto 61px;
+}
+
+
+/* card */
+
+.card {
+    width: 260px;
+}
+
+.card-image {
+    width: 100%;
+    height: 325px;
+    background: #191B1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .title {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    margin: 25px 0 10px;
+}
+
+.card .price {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+}
+
+body {
+    font-family: 'PT Sans';
+    font-weight: 400;
+    background-color: #000;
+    color: #fff;
+}
+
+.header-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+}
+
+.header-top .info {
+    display: flex;
+    align-items: center;
+}
+
+.header-top .fas {
+    color: #969696;
+    font-size: 13px;
+    margin-right: 16px;
+}
+
+.header-top .text {
+    font-size: 16px;
+    color: #969696;
+}
+
+.header-top .info:nth-child(2) .fas {
+    margin-right: 12px;
+}
+
+.header-nav {
+    background-color: #0f0f0f;
+}
+
+.header-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav .menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav .menu .link {
+    font-size: 14px;
+    color: #969696;
+    text-transform: uppercase;
+    padding: 31px 20px;
+}
+
+.header-nav .menu .link:hover {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.header-nav .menu .link .fas {
+    color: #fff;
+}
+
+
+/* main */
+
+.main {
+    background: url(../images/header-bg.jpg) no-repeat center / cover;
+    padding: 160px 0 154px;
+}
+
+.main-logo {
+    width: 320px;
+    height: 320px;
+    border: 4px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 80px;
+}
+
+.main-text {
+    width: 730px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 150%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* season */
+
+.season {
+    display: flex;
+    align-items: stretch;
+}
+
+.season .content {
+    width: 60%;
+    padding: 93px 0;
+}
+
+.season .wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 0 50px;
+}
+
+.season .image-block {
+    width: 40%;
+    background: url(../images/image-1.jpg) no-repeat center / cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.collect {
+    display: flex;
+    align-items: stretch;
+}
+
+.collect .image-block {
+    width: 40%;
+    background: url(../images/Rectangle\ 9.jpg ) no-repeat center / cover;
+}
+
+.collect .content {
+    width: 60%;
+    padding: 100px 0;
+}
+
+
+/* products */
+
+.products {
+    padding: 120px 0 150px;
+}
+
+.products .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px 0;
+}
+
+
+/* brand */
+
+.brand {
+    background: #0f0f0f;
+    padding: 60px 80px;
+}
+
+.brand .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand .wrapper img {
+    width: 255px;
+}
+
+
+/* footer */
+
+.footer {
+    background: url(../images/footer-bg.jpg) no-repeat center / cover;
+    padding: 60px 0 100px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .item {
+    width: 100%;
+    max-width: 350px;
+}
+
+.footer .title {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.footer .text {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.footer .item .block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .item .block a {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #0f0f0f;
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer .item form {
+    display: flex;
+    margin-top: 37px;
+}
+
+.footer .item form input {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.4);
+    color: #fff;
+}
+
+.footer .item form input::placeholder {
+    color: #fff;
+}
+
+.footer .item form button {
+    font-size: 14px;
+    color: #fff;
+    background: #0f0f0f;
+    padding: 0 20px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.copyright {
+    background: #0f0f0f;
+}
+
+.copyright .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 12px;
+    color: #ddd;
+}
+
+.copyright a {
+    font-weight: 700;
+    color: #ddd;
+    text-decoration: underline;
+}
